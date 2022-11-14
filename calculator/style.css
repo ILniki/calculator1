@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+#calculator {
+    width: 361px;
+    height: auto;
+    margin: 100px auto;
+    padding: 18px 18px 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.kasnedos span.clear {
+    float: left;
+}
+
+.kasnedos .screen {
+    height: 58px;
+    width: 349px;
+    float: right;
+    padding: 0 8px;
+    background: rgba(21, 21, 21, 0.33);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(62, 62, 62, 0.2);
+    font-size: 35px;
+    line-height: 40px;
+    color: #f7f7f7;
+    text-shadow: 1px 1px 2px rgba(23, 23, 23, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.calcuka-suslatom, .kasnedos {overflow: hidden;}
+
+.calcuka-suslatom span, .kasnedos span.clear {
+    float: left;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+    width: 85px;
+    height: 55px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(37, 37, 37, 0.35);
+    margin: 0 7px 11px 0;
+    color: #827f7f;
+    line-height: 35px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s ease;
+    border-radius: 40px;
+    font-size: 35px;
+}
+
+.calcuka-suslatom span.operator {
+    background-color: #fa0054;
+    margin-right: 0;
+}
+
+.calcuka-suslatom span:hover {;
+    box-shadow: 0px 4px #535353;
+    color: #f9f9f9;
+}
+
+.kasnedos span.clear {
+    background-color: #fa0054;
+    color: #f7f5f5;
+}
+
+.calcuka-suslatom span:hover {
+    background-color: grey;
+    color: #f7f5f5;
+}
+
+.kasnedos span.clear:hover {
+    background-color: grey;
+    color: #f7f5f5;
+    box-shadow: 0px 4px #535353;
+}
